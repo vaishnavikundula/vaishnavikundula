@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int num,remainder,divisor;
+printf("enter number");
+scanf("%d",&num);
+printf("enter divisor");
+scanf("%d",&divisor);
+while(num>=divisor)
+{
+num=num-divisor;
+}
+remainder=number;
+printf("the remainder %d",remainder);
+}
