@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+char lwr,upr;
+int ascii;
+printf("enter the upper case character");
+scanf("%c",&upr);
+ascii=upr+32;
+printf("%c character of lower value is %c",ascii,upr);
+printf("enter the lower case character");
+scanf("%c",&lwr);
+ascii=lwr-32;
+printf("%c character of upper case is %c",ascii,lwr);
+}
