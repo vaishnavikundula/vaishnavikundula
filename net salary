@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+float basic,da,hra,ta,others,pf,it,net salary;
+printf("enter basic salary,hra,ta,others");
+scanf("%f%f%f%f",&basic,&hra,&ta,&others);
+da=(basic*12)/100;
+printf("da is %.2f",da);
+pf=(basic*14)/100;
+printf("pf is %.2f",pf);
+it=(basic*15)/100;
+net salary=basic+da+hra+ta+others-(pf+it);
+printf("net salary is %.2f",net salary);
+}
