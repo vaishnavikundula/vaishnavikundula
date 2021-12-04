@@ -1,0 +1,10 @@
+
+#include<stdio.h>
+int main()
+{
+float principle,time,rate,ci;
+printf("enter principle,time,rate");
+scanf("%f%f%f",&principle,&time,&rate);
+ci=principle*(pow(1+rate/100),time);
+printf("ci is %.2f",ci);
+}
