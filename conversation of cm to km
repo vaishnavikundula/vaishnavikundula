@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+float cm,km;
+printf("enter cm");
+scanf("%f",&cm);
+km=cm/100000;
+printf("km is %.2f",km);
+}
